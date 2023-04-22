@@ -40,7 +40,7 @@ public class Satelites extends Astros {
 
         str="DISTANCIA PLANETA: "+distancPlaneta+
             "ORBITA PLANET: "+orbPlanetaria+
-            "PLANETA PERTENECIENTE"+planetaPertenec;
+            "PLANETA PERTENECIENTE: "+planetaPertenec;
 
         return str;
      }

@@ -33,9 +33,9 @@ public class Planetas extends Astros {
     public String toString(){
         String str = super.toString();
 
-        str = "DISTANCIA AL SOL: "+distanciaSol+
-              "ORBITA AL SOL: "+orbitaSol+
-              "NUM DE SATELITES: "+numSatelite;
+        str = " -DISTANCIA AL SOL: "+distanciaSol+
+              " ORBITA AL SOL: "+orbitaSol+
+              " NUM DE SATELITES: "+numSatelite;
 
         return str;
 
