@@ -2,7 +2,7 @@ package capitulo9;
 
 
 
-public class GatoSimple {
+public class ejemplo2 {
 
     // atributos ////////////////////////////
 
