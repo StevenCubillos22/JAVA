@@ -1,0 +1,25 @@
+Una coleccion en Java es una estructura de datos que permite almacenar muchos
+valores del mismo tipo; por tanto, conceptualmente es practicamente igual que un
+array.
+
+Un ArrayList es una estructura en forma de lista que permite almacenar elementos del
+mismo tipo (pueden ser incluso objetos); su tamano va cambiando a medida que se
+anaden o se eliminan esos elementos.
+
+Nos podemos imaginar un ArrayList como un conjunto de celdas o cajoncitos donde
+se guardan los valores, exactamente igual que un array convencional. En la practica
+será más fácil trabajar con un ArrayList.
+
+En capítulos anteriores hemos podido comprobar la utilidad del array; es un recurso
+imprescindible que cualquier programador debe manejar con soltura. No obstante,
+el array presenta algunos inconvenientes. Uno de ellos es la necesidad de conocer el
+tamaño exacto en el momento de su creación. Una coleccion, sin embargo, se crea sin
+que se tenga que especificar el tamaño; posteriormente se van anadiendo y quitando
+elementos a medida que se necesitan.
+
+Trabajando con arrays es frecuente cometer errores al utilizar los índices; por ejemplo
+al intentar guardar un elemento en una posición que no existe (índice fuera de rango).
+Aunque las colecciones permiten el uso de índices, no es necesario indicarlos siempre.
+Por ejemplo, en una coleccion del tipo ArrayList, cuando hay que anadir el elemento
+"Amapola", se puede hacer simplemente flores.add("Amapola"). Al no especificar índice, el
+elemento "Amapola" se anadiría justo al final de flores indepe
