@@ -17,9 +17,6 @@ public class PruebAnimal {
     public static void main(String[]Args) {
 
 
-        
-
-
         Perro jake = new Perro() {
 
         };

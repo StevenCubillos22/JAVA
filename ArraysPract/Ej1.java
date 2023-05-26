@@ -13,31 +13,25 @@ public class Ej1 {
 
   
 
-            String[][] tabla = new String[14][3];
-
-            //Se crea el array con sus numeros
-
-            for (int i = 0; i < 14; i++) {
-              for (int j=0; j<3; j++) {
-                tabla[i][j] = String.valueOf(j + 1);
-              }
-          }
-    }
-
-
-
-    //Se muestra nuestro array una vez mostrado los numeros generados
-    System.out.println("Tabla: ");
-      for (int i = 0; i < 14; i++) {
-        for (int j = 0; j < 3; j++) {
-          System.out.print(tabla[i][j]+" ");
+             // Crear la tabla de quiniela
+        String[][] tablaQuiniela = new String[14][3];
+        
+        // Rellenar la tabla con los valores 1, 2 y 3
+        for (int fila = 0; fila < tablaQuiniela.length; fila++) {
+            for (int columna = 0; columna < tablaQuiniela[fila].length; columna++) {
+                tablaQuiniela[fila][columna] = String.valueOf(columna + 1);
+            }
         }
-      System.out.println();
+        
+        // Mostrar la tabla de quiniela
+        for (int fila = 0; fila < tablaQuiniela.length; fila++) {
+            for (int columna = 0; columna < tablaQuiniela[fila].length; columna++) {
+                System.out.print(tablaQuiniela[fila][columna] + " ");
+            }
+            System.out.println();
+        }
     }
-
-          
-
-    }
+}
 
 
 
